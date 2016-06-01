@@ -1,0 +1,17 @@
+c:\users\soumya\documents\visual studio 2012\Projects\Melange15\Melange15\bin\Debug\Melange15.exe.config
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\Melange15.exe
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\Melange15.pdb
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.csprojResolveAssemblyReference.cache
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.Advanced.resources
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.Form1.resources
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.Properties.Resources.resources
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.csproj.GenerateResource.Cache
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.exe
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.pdb
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\System.Data.SQLite.dll
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\System.Data.SQLite.xml
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\Melange15.exe.manifest
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\bin\Debug\Melange15.application
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.exe.manifest
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.application
+C:\Users\Soumya\Documents\Visual Studio 2012\Projects\Melange15\Melange15\obj\Debug\Melange15.Backup.resources
