@@ -18,7 +18,7 @@ UPDATE:
 BACKUP: 
 
  - Enables you to create a backup of all the data and store the zip in your local.
- - Manage the backup already created. 
+ - Manage all the backups already created. 
  
  DATABASE:
   - The store module uses sqlite database. I chose it because it was portable and light to use.
