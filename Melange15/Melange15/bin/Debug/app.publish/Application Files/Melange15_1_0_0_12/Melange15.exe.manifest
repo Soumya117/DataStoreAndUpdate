@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Melange15.exe" version="1.0.0.12" publicKeyToken="df5f9e45db1b3bbd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon (13).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Melange15" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Melange15.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Melange15.exe" size="1128448">
+      <assemblyIdentity name="Melange15" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Wt7SnIXgD7gXaEknZzIChYT0YtyAHfZv2ojVLj+cJXY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="967168">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.79.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gq7Pm5Bk+6L9CNhZtmmD7WM4vKDjS4gn9kpopHtfLc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon (13).ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H+rhUUVksPvwluR+q6OAIHVkTart+QoIat4FEIJsfOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Melange15.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SAM\Soumya" issuerKeyHash="89d743936da8f9b9e6e1eaf5fa1151ce7a4ef061" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5jBMC3QLg5/i72xq8H6uoD52da4ZMUhzt+p8vs1FDMg=</DigestValue></Reference></SignedInfo><SignatureValue>fKvKtLenFwDE5NfcSh2hxHInDZFwq8TTbvBr8iHy8z+AcIIzTyMIxPhOnt1UQ51x6aRKTE5X3bgpoP5FwkS4RZhBNTzgc+qygPOMfSrnUCYvxrBVLOlZvFqgkzAN1mU2W8hdJTZIpQS1rFo8rgzspxIj4FMkVlfrpbWEPkx5iOQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xEC7FM0gy7KTV+VEbQiVEZMcFP6pWseHeKcqjZcc55eOgOETM9qu/69uNscS8K6ca6IoUOhPRrm83euOmnGpJEfOAhspZciKaYUYBsnImaVXHstGgr4cglEoAWB49d+SRsLjHkcdigeWTF30O6VxFNzA+Mhou5HaabBufo0Prec=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c80c45cdbe7ceab773483119ae75763ea0ae7ef06a6cefe29f830b740b4c30e6" Description="" Url=""><as:assemblyIdentity name="Melange15.exe" version="1.0.0.12" publicKeyToken="df5f9e45db1b3bbd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SAM\Soumya</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BfEYXi92O0E09dsGbdAysj2bi3/DpoTpUuc7V6+oyGM=</DigestValue></Reference></SignedInfo><SignatureValue>Wf5dqFiTdTWA/rqiLRCxdj6qLmX5SzLI8py66U63S4KzOld9P/RvFX2SzZRFMsjH3y5M5Jc06YJQX6iKmKWn1WZ1+y7aIXm7wCGodPWR7a+4cURdQ3VtaHl5wRoCajjjfOnKQjZGlDlzPF0DihMuQW1ErWR2HRD05EvZmqywjVw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xEC7FM0gy7KTV+VEbQiVEZMcFP6pWseHeKcqjZcc55eOgOETM9qu/69uNscS8K6ca6IoUOhPRrm83euOmnGpJEfOAhspZciKaYUYBsnImaVXHstGgr4cglEoAWB49d+SRsLjHkcdigeWTF30O6VxFNzA+Mhou5HaabBufo0Prec=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQEX2PdQWubblJflJ3Kg1BdjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAUwBBAE0AXABTAG8AdQBtAHkAYTAeFw0xNTAxMDYxNzMzMzhaFw0xNjAxMDYyMzMzMzhaMB8xHTAbBgNVBAMeFABTAEEATQBcAFMAbwB1AG0AeQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEQLsUzSDLspNX5URtCJURkxwU/qlax4d4pyqNlxznl46A4RMz2q7/r242xxLwrpxroihQ6E9Gubzd646acakkR84CGyllyIpphRgGyciZpVcey0aCvhyCUSgBYHj135JGwuMeRx2KB5ZMXfQ7pXEU3MD4yGi7kdppsG5+jQ+t5wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAMJiy2vHczUmEuNcLjr+AeJlqSL6Z+SiEMxJoumzbQ5N6Kay7tpCrnWhMK+nhiTAFrSJJDFg6jIWOJqMm8MmovX5AAtflNjYIYcul4CWDVpaxjzwcVpqInQ/qgWMcMnRq33mKucu+r/sQmKcQpu1zdGo5DN7LnoYgxaMsoZtGbr4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
